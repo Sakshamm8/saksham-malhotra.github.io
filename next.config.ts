@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  output: 'export', // enables static export
+  assetPrefix: isProd ? '/saksham-portfolio/' : '', // only for production
 };
 
-export default nextConfig;
+module.exports = nextConfig;

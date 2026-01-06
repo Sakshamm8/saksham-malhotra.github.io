@@ -55,7 +55,7 @@ export default function Home() {
           <ExperienceCard
             title="Deep Learning Research Co-op"
             org="Department of Biomedical Engineering, University of Cincinnati"
-            time="Jan 2025 – Present"
+            time="Jan 2026 – Present"
             points={[
               "Assist in developing deep learning-based techniques to reduce radiation dose in pediatric PET imaging.",
               "Work under the supervision of Dr. Jing Tang in collaboration with the Emission Tomography Imaging Laboratory.",
