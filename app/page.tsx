@@ -20,12 +20,12 @@ export default function Home() {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300">
-            Computer Science · Deep Learning · Medical Imaging
+            Computer Science @ University of Cincinnati | Deep Learning Researcher | Hackathon Enthusiast
           </p>
 
           <p className="mt-8 text-gray-400 max-w-2xl mx-auto leading-relaxed">
             I build intelligent systems at the intersection of software,
-            artificial intelligence, and healthcare — with a strong focus on
+            artificial intelligence, and healthcare with a strong focus on
             real-world impact.
           </p>
 
@@ -68,18 +68,18 @@ export default function Home() {
             org="Healthsigns.ai"
             time="June 2025 – August 2025"
             points={[
-              "Extracted and processed structured data from unstructured healthcare PDFs using spaCy, pdfplumber, and pytesseract, and preprocessed, trained, and evaluated Whisper speech-to-text models for Indic languages with Hugging Face datasets, improving information retrieval and transcription accuracy. ",
+              "Extracted and processed structured data from unstructured healthcare PDFs using spaCy, pdfplumber, and pytesseract, and preprocessed, trained, and evaluated Whisper speech-to-text models for Indic languages with Hugging Face datasets, improving information retrieval and transcription accuracy.",
               "Integrated and deployed advanced LLM solutions combining Whisper (speech recognition), OpenAI & Groq APIs (generative tasks), and Azure-hosted LLaMA (private inference).",
             ]}
           />
 
           <ExperienceCard
-            title="Information Technology Risk Assurance (ITRA) Intern"
-            org="PwC Middle East"
-            time=" May 2025 – June 2025"
+            title="Information technology risk assurance intern"
+            org="PricewaterhouseCoopers (PwC) Middle east"
+            time="May 2025 – June 2025"
             points={[
               "Assisted in documenting and evaluating IT controls as part of the ITRA team at PwC, identifying potential risks and control gaps across business processes and contributing to risk assessment reports.",
-              "Explored applications of AI in auditing, gaining hands-on exposure to emerging technologies in risk assurance and understanding how automation and data analytics enhance audit accuracy and efficiency. ",
+              "Explored applications of AI in auditing, gaining hands-on exposure to emerging technologies in risk assurance and understanding how automation and data analytics enhance audit accuracy and efficiency.",
             ]}
           />
         </div>

@@ -17,6 +17,7 @@ export default function Navbar() {
             href="https://www.linkedin.com/in/saksham-malhotra-uc/"
             target="_blank"
             className="hover:text-blue-400"
+
           >
             LinkedIn
           </a>

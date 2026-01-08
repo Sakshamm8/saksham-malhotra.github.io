@@ -52,7 +52,7 @@ export default function Hackathons() {
               <p className="text-gray-300">{h.desc}</p>
               <p className="text-gray-400 mb-4">{h.role}</p>
               <a href={h.link} target="_blank" className="text-blue-400 hover:underline">
-                View on Devpost →
+                View →
               </a>
             </motion.div>
           ))}
