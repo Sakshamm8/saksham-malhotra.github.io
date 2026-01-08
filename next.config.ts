@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
-  output: 'export',
-  // assetPrefix is NOT needed for username.github.io sites
+  output: "export",
+  basePath: "/saksham-malhotra.github.io",
+  assetPrefix: "/saksham-malhotra.github.io/",
   images: {
-    unoptimized: true, // Helpful for static export
-  }
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
